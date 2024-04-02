@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+html {
+    background-image: url(/Pagina_principal/Recursos/Conversor-BMO.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Nav-p {
+    background-color: #84D3B6;
+    height: 100PX;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Logo_Pagina {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.li-u {
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+}
+
+.li-i {
+    font-size: 20PX;
+    margin: 0 15px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.a-l {
+    text-decoration: none;
+    color: black;
+    font-style: inherit;
+    text-shadow: #69cea9bd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#titulo {
+    margin: 110px 0px 20px 0px;
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 80px;
+    text-shadow: 4px 4px 1px #ffffff52;
+}
+
+#Porque_hacerlo {
+    text-align: center;
+    margin: 40px 340px 10px 340px;
+    font-family: monospace;
+}
+
+h2 {
+    margin: 40px 0px 40px 0px;
+    font-size: 40px;
+}
+
+#Que_contiene {
+    text-align: center;
+    margin: 40px 320px 10px 320px;
+    font-family: monospace;
+
+}
+
+#Mas_acerca_de_mi {
+    text-align: center;
+    margin: 40px 320px 10px 320px;
+    font-family: monospace;
+}
+
+#informacion {
+    align-items: flex-start;
+    background-color: #4ca182;
+    margin: 40px 0px 0px 0px;
+
+}
+
+#logo1, #logo2{
+    margin: 10 px;
+}
+
+ul {
+    list-style: none;
+}

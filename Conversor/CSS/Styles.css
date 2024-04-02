@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+    font-size: 30px;
+
+}
+html{
+    background-image: url(/Conversor/Recursos/Conversor-BMO.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.Nav-p{
+    background-color:#84D3B6 ;
+    height: 100PX;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    }
+#Logo_Pagina{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.li-u{
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+}
+
+.li-i{
+    font-size: 20PX;
+    margin: 0 15px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.a-l{
+    text-decoration: none;
+    color:black;
+    font-style:inherit;
+    text-shadow: #69cea9bd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#titulo{
+    margin: 90px 0px 20px 0px;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+}
+.contenido{
+    margin: 20px 0px 20px 0px;
+    font-size: 30px;
+    font-family:monospace;
+    text-align: center;
+}
+
+
+#NumeroConver{
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    font-size: 50px;
+    color: #048052;
+    border: none;
+    background-image:url(/Conversor/Recursos/Textura.PNG);
+    font-family:monospace;
+    text-shadow: 4px 4px 1px #04805341;
+    text-align: center;
+    border-color: #2a9697;
+    border-radius: 15px 15px 0px 0px ;
+
+}
+
+#texto_Conversor_2,#texto_Conversor_3,#texto_Conversor_3{
+    text-shadow:4px 4px 1px  #04805321 ;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#Select_1,#Select_2{
+    color: #048052;
+    text-shadow:4px 4px 1px #04805341;
+    background-image:url(/Conversor/Recursos/Textura.PNG);
+    background-color: #84D3B6;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    border: none;
+}
+
+#Boton_Convertir{
+    color: #048052;
+    text-shadow:4px 4px 1px #04805341;
+    border-color: #048052;
+    background-color: #84D3B6;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-block-end: 30px;
+}
+
+#Cuerpo_BMO{
+    background-color: #2a9697;
+    margin: 0PX 450px 0px 450px;
+}
+
+#respuesta{
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+    width: 900px;
+    text-align:center;
+    height: 265px;
+    font-size: 40px;
+    color: #048052;
+    background-image:url(/Conversor/Recursos/Textura.PNG);
+    font-family: monospace;
+    text-shadow: 4px 4px 1px #04805341;
+    border-color: #2a9697;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+#textoSuperior{
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height: 30px;
+    font-size: 25px;
+    color: #2a9697;
+    font-family: monospace;
+    text-shadow: 4px 4px 1px #04805341;
+    text-align: center;
+    border-color: #2a9697;
+}
+
+#reload{
+    color: #048052;
+    text-shadow:4px 4px 1px #04805341;
+    border-color: #048052;
+    background-color: #84D3B6;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-block-end: 30px;
+}
+
+button:active{
+    background-color: #048052;
+}
+
+button:focus{
+    outline-color: none;
+}

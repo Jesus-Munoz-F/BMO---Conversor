@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+  <head>
+    <!--informacion de la pagina y links de la misma-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      author="Jesus"
+      content="Esta es una pagina clon para Conversion de pesos a kilogramos"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Solo es un poco de html, css y JavaScript"
+    />
+
+    <title>Conversor basico - BMO</title>
+    <!--Link para el icono de la pagina-->
+    <link rel="shortcut icon" href="/Conversor/favicon.ico" />
+    <!--Links para los estilos y scripts-->
+    <link rel="stylesheet" href="/Conversor/CSS/Styles.css" />
+  </head>
+
+  <body>
+    <!--Aqui comienza el cuerpo de la pagina el cual dividire en 3 partes-->
+    <!--Primero el encabezado y la barra de navegacion-->
+    <nav class="Nav-p">
+      <div class="logo">
+        <img
+          src="/Conversor/Recursos/Icono_C.png"
+          width="510px"
+          height="70px"
+          alt="icono de la pagina"
+          id="Logo_Pagina"
+        />
+      </div>
+      <ul class="li-u">
+        <li class="li-i"><a class="a-l" href="/Pagina_principal/Index_T.html" target="_blank">Pagina de Inicio</a></li>
+        <!--Aqui se muestran las opciones de navegacion entre paginas-->
+      </ul>
+    </nav>
+    <!--este consta de una barra de navegacion sencilla-->
+    <header id="titulo">
+      <h1>Conversor -BMO</h1>
+    </header>
+    <div class="contenido">
+      <p>
+        Es un software conversor de unidades basicos el cual usa HTML,CSS y
+        JavaScript.
+      </p>
+    </div>
+    <!--Esta es la seccion Del conversor-->
+    <div id="Cuerpo_BMO">
+      <div id="Parte superior">
+        <p id="textoSuperior"></p>
+        <!--aqui realize una pequeña division-->
+      </div>
+      <section class="conversor">
+        <div id="Pantalla_BMO">
+          <input
+            type="number"
+            id="NumeroConver"
+            name="NumeroConver"
+            min="1"
+            max="99999"
+            placeholder="Escriba la unidad a Convertir"
+          />
+        </div>
+        <!--cree un input para poder ingresar los datos y ser convertidos-->
+        <div id="Resultado">
+          <h3 id="respuesta">_________________◉ ‿ ◉_________________</h3>
+        </div>
+        <!--tambien se creo un h3 para mostrar el resultado por pantalla utilizando un ".textcontent"-->
+        <p id="texto_Conversor_2">Seleccione la unidad ingresada</p>
+        <div id="Unidad_ORG">
+          <select id="Select_1">
+            <option value="">--Seleccione la Unidad--</option>
+            <option value="0">Tonelada</option>
+            <option value="1">Kilogramos</option>
+            <option value="2">Gramos</option>
+            <option value="3">Microgramo</option>
+            <option value="">--Unidades US/UK--</option>
+            <option value="4">Libra US</option>
+            <option value="5">Onza</option>
+          </select>
+        </div>
+        <!--aqui se toman las opciones para realizar la conversion de las unidades-->
+        <p id="texto_Conversor_3">Seleccione la unidad a convertir</p>
+        <div id="Unidad_ORG_2">
+          <select id="Select_2">
+            <option value="">--Seleccione la Unidad--</option>
+            <option value="0">Tonelada</option>
+            <option value="1">Kilogramos</option>
+            <option value="2">Gramos</option>
+            <option value="3">Microgramo</option>
+            <option value="">--Unidades US/UK--</option>
+            <option value="4">Libra US</option>
+            <option value="5">Onza</option>
+          </select>
+          <!--las opciones de conversion las cuales dependiendo de las opciones realiza las funciones de conversion-->
+        </div>
+        <div>
+          <p id="texto_Conversor_4"></p>
+          <button id="Boton_Convertir" onclick="convertir()">Convertir</button>
+        </div>
+        <!--aqui se llama una funcion la cual desencadena la conversion-->
+        <div>
+          <p id="texto_Conversor_4"></p>
+          <button id="reload">Reiniciar</button>
+        </div>
+        <!--Aqui se crea un boton el cual refresca la pagina desde un comando-->
+      </section>
+      <script src="/Conversor/Script/Scripts.js"></script>
+      <!--los scripts se cargan al final-->
+    </div>
+  </body>
+</html>
